@@ -1,0 +1,14 @@
+.bg-dark{
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-family: sans-serif;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.container{
+    border: 2px solid red;
+    max-width: 800px;
+}
