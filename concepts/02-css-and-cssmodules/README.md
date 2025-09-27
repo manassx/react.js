@@ -1,6 +1,6 @@
-#Ways to add CSS to a react app
+# Ways to add CSS to a react app
 
-*To create a seperate css file for a component in the component folder (component.css) and importing it to the component file.
+* To create a seperate css file for a component in the component folder (component.css) and importing it to the component file.
 For Example,
 **in App.jsx:**
 
@@ -33,7 +33,7 @@ note: here style.jsx is a component file and Style is a component
 
 And **style.css** is going to have vanilla style for .about class
 
-*We can add inline css by using style attribute in a jsx tag and passing a javascript object
+* We can add inline css by using style attribute in a jsx tag and passing a javascript object
 
 **Some additional points for inline css**
 -We can use conditional operator or ternary operator in jsx to add classes based on certain conditions
@@ -61,9 +61,9 @@ Ex: here we want to add two classes, container and bg-dark but the second one sh
 
 ---
 
-#CSS Modules
+# CSS Modules
 
-Normally, Agar 1 class 2 css file mei designed ho toh joh baad me import hoti hai uske style follow hote hai
+Normally, Agar 1 class 2 css file me designed ho toh joh baad me import hoti hai uske style follow hote hai
 
 ```javascript
 import "./style.css";
@@ -80,6 +80,7 @@ b. Write Command - import variableName from "./FileName.module.css" in the compo
 import style1 from "./Greeting1.module.css";
 import style2 from "./Greeting2.module.css";
 ```
+Here style1 and style2 are objects.
 
 **To use:**
 Write {variableName.ClassName} as class for the component

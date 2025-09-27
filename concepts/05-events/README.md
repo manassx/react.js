@@ -1,0 +1,1 @@
+> onClick just works for html elements like h1, p, button etc. and not while rendering component. That means if we add onClick to a react component while rendering it, it's going to be declared as a prop.
