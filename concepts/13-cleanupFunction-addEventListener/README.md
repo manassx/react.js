@@ -65,3 +65,19 @@ function MouseMoveEvent() {
   );
 }
 ```
+
+# Abort network request
+
+```jsx
+const controller = new AbortController(); // Create a new AbortController
+const signal = controller.signal; // Get the AbortSignal
+
+const response = await fetch(url, { signal: signal }); //Pass the signal to fetch, this links fetch request to the AbortController
+
+// Cleanup function: abort the request if the component unmounts or dependencies change
+return () => {
+  controller.abort();
+};
+
+// Empty dependency array means this effect runs once on mount and cleans up on unmount
+```

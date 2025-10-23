@@ -1,12 +1,13 @@
 import { useState } from "react";
 import CleanupFunctionDemo from "./components/CleanupFunctionDemo";
 import MouseMoveEvent from "./components/MouseMoveEvent";
+import ExampleFetchData from "./components/ExampleFetchData";
 function App() {
-  const [isCheck, setIsCheck] = useState(true);
+  const [isCheck, setIsCheck] = useState(false);
   return (
     <div
       className="App"
-      style={{ display: "flex", flexDirection: "column", alignItems: "center" }}
+      style={{ display: "flex", flexDirection: "column", alignItems: "center",}}
     >
       <div>
         <label htmlFor="checkbox">show component</label>
@@ -19,7 +20,8 @@ function App() {
       </div>
 
       {/* {isCheck && <CleanupFunctionDemo />} */}
-      {isCheck && <MouseMoveEvent />}
+      {/* {isCheck && <MouseMoveEvent />} */}
+      {isCheck && <ExampleFetchData />}
     </div>
   );
 }
