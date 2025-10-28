@@ -7,3 +7,4 @@ Each folder in the `/concepts` directory is a self-contained **Vite + React** pr
 I am actively learning and pushing new code regularly.
 
 - **Connect with me on [LinkedIn](https://www.linkedin.com/in/saxenamanas/)**
+- **Connect with me on [Twitter](https://x.com/manastsx)**
